@@ -47,20 +47,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
-            android:text="Your favourite page turners!"
+            android:text="The last chapter to your Book search"
             android:textColor="#0E0E0E"
-            android:textSize="24sp"
+            android:textSize="16sp"
             android:textStyle="bold|italic"
             android:layout_marginTop="0dp"/>
 
         <TextView
             android:id="@+id/app_content"
-            android:layout_width="359dp"
+            android:layout_width="299dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="30dp"
             android:fontFamily="serif"
-            android:text="Welcome to Book worms, an indie app supporting e-books"
+            android:text="Once upon a book,there was a Bookworm...."
             android:textColor="#0B0A0A"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
@@ -78,10 +78,10 @@
             android:id="@+id/book_searcher_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="-46dp"
             android:text="Search a book"
-            android:textColor="#22094E"
+            android:textColor="#703A2A"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
 
@@ -109,10 +109,10 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="-50dp"
             android:text="Favourites"
-            android:textColor="#390606"
+            android:textColor="#703A2A"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
 
@@ -120,10 +120,10 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="-90dp"
             android:text="See What's trending!"
-            android:textColor="#321717"
+            android:textColor="#703A2A"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
 
@@ -140,10 +140,10 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="-35dp"
             android:text="Trade e-books"
-            android:textColor="#2B0404"
+            android:textColor="#703a2a"
             android:textSize="24sp"
             android:textStyle="bold|italic" />
 
@@ -159,9 +159,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="300dp"
-            android:layout_marginTop="-40dp"
+            android:layout_marginTop="-45dp"
             android:text="About us"
-            app:backgroundTint="#911515" />
+            app:backgroundTint="#7C3232" />
 
 
     </LinearLayout>

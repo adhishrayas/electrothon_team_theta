@@ -11,10 +11,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookWorms">
         <activity
+            android:name=".Trending_e_books"
+            android:exported="false" />
+        <activity
+            android:name=".new_page"
+            android:exported="false"
+            android:label="@string/title_activity_new_page"
+            android:theme="@style/Theme.BookWorms.NoActionBar" />
+        <activity
             android:name=".Trending_page"
             android:exported="false"
             android:label="@string/title_activity_trending_page"
             android:theme="@style/Theme.BookWorms.NoActionBar" />
+        <activity
+            android:name=".profile_page"
+            android:exported="false" />
+        <activity
+            android:name=".download_e_book"
+            android:exported="false" />
+        <activity
+            android:name=".upload_book"
+            android:exported="false" />
+        <activity
+            android:name=".upload_download_book"
+            android:exported="false" />
         <activity
             android:name=".BookDetailHostActivity"
             android:exported="false"
