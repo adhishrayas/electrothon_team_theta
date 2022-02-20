@@ -6,6 +6,6 @@ import android.os.Bundle
 class book_searching : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_book_searching)
+        setContentView(R.layout.activity_download_ebook)
     }
 }
